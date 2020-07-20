@@ -16,13 +16,15 @@ npm install --save-dev typescript @typescript-eslint/eslint-plugin @typescript-e
 ```
 Note: maybe you have a "scripts" section/key in your `package.json` file. In this case you need to extend it with the `"lint": "eslint . --ext .ts"`. Take attention to writing the right syntax of JSON.
 
+## Visual Studio Code setup
+
 - Install the following Visual Studio Code extensions
 ```text
 dbaeumer.vscode-eslint
 esbenp.prettier-vscode
 ```
 
-## How to edit your settings
+### How to edit your settings
 
 Your VS Code settings are conveniently stored in a JSON file called `settings.json`.
 To edit your settings in `settings.json`,
@@ -62,7 +64,7 @@ then you can reach the documentation [here](https://marketplace.visualstudio.com
 
 ## Source
 
-More detailed [article](https://levelup.gitconnected.com/setting-up-eslint-with-prettier-typescript-and-visual-studio-code-d113bbec9857)
+- More detailed [article](https://levelup.gitconnected.com/setting-up-eslint-with-prettier-typescript-and-visual-studio-code-d113bbec9857)
 extended with JS and React.
 
 ## Contribution
