@@ -21,6 +21,22 @@ dbaeumer.vscode-eslint
 esbenp.prettier-vscode
 ```
 
+## How to edit your settings
+
+Your VS Code settings are conveniently stored in a JSON file called `settings.json`.
+To edit your settings in `settings.json`,
+start by opening the Command Palette with CMD/CTRL + SHIFT + P.
+
+From the Command Palette, you have a choice between at least two commands that edit your settings:
+- The Open Settings (JSON) command will let you directly edit the settings JSON file.
+- The Open Settings (UI) command will open a user-friendly UI to edit the settings JSON file indirectly.
+
+Both options work equally well and present the same options.
+Once you're in the settings tab, you can edit either user or workspace settings.
+User settings apply globally for any VS Code instance,
+while workspace settings only apply to the workspace you are currently working in.
+Workspace settings override user settings.
+
 - Add the following to your Visual Studio Code `settings.json`
 ```text
 "[typescript]": {
