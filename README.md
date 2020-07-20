@@ -1,5 +1,7 @@
 # How to automatically apply AirBnB style guide to your TypeScript project
 
+This repo helps you to setup your environment for applying AirBnB TypeScript style guide with Visual Studio Code
+
 - go to your project's root folder and run `npm init` if no package.json exists in your project's root folder
 - run
 ```shell script
@@ -34,6 +36,11 @@ esbenp.prettier-vscode
 ],
 "prettier.eslintIntegration": true,
 ```
+
+And that’s it! 
+You should now have complete Visual Studio Code integration.
+When you violate a linting rule, you’ll be visually alerted, and when you save a file,
+ESLint will attempt to fix any issues using Prettier.
 
 ## Source
 More detailed [article](https://levelup.gitconnected.com/setting-up-eslint-with-prettier-typescript-and-visual-studio-code-d113bbec9857)
