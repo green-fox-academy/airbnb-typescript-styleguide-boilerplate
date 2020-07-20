@@ -40,7 +40,8 @@ User settings apply globally for any VS Code instance,
 while workspace settings only apply to the workspace you are currently working in.
 Workspace settings override user settings.
 
-- Add the following to your Visual Studio Code `settings.json`
+### Add the following to your Visual Studio Code `settings.json`
+
 ```text
 "[typescript]": {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
