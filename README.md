@@ -44,5 +44,11 @@ If you want to customize the VSCode Prettier plugin better,
 then you can reach the documentation [here](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
 ## Source
+
 More detailed [article](https://levelup.gitconnected.com/setting-up-eslint-with-prettier-typescript-and-visual-studio-code-d113bbec9857)
 extended with JS and React.
+
+## Contribution
+
+Feel free to fork and create pull requests. Keep in mind, this repo is only for basic TypeScript projects
+without any framework.
