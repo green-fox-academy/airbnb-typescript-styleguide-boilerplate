@@ -14,6 +14,7 @@ npm install --save-dev typescript @typescript-eslint/eslint-plugin @typescript-e
   "lint": "eslint . --ext .ts"
 }
 ```
+Note: maybe you have a "scripts" section/key in your `package.json` file. In this case you need to extend it with the `"lint": "eslint . --ext .ts"`. Take attention to writing the right syntax of JSON.
 
 - Install the following Visual Studio Code extensions
 ```text
