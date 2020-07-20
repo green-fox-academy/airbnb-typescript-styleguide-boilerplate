@@ -5,7 +5,7 @@ This repo helps you to setup your environment for applying AirBnB TypeScript sty
 - go to your project's root folder and run `npm init` if no package.json exists in your project's root folder
 - run
 ```shell script
-npm install --save-dev @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-airbnb-base eslint-config-prettier eslint-import-resolver-typescript eslint-plugin-import eslint-plugin-json eslint-plugin-prettier prettier
+npm install --save-dev typescript @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-airbnb-base eslint-config-prettier eslint-import-resolver-typescript eslint-plugin-import eslint-plugin-json eslint-plugin-prettier prettier
 ```
 - copy `.eslintrc.js` from this repository to your project's root folder
 - Add the following to your `package.json`
@@ -25,16 +25,14 @@ esbenp.prettier-vscode
 ```text
 "[typescript]": {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": false
+  "editor.formatOnSave": true
 },
-"eslint.autoFixOnSave": true,
+"editor.codeActionsOnSave": {
+  "source.fixAll": true
+},
 "eslint.validate": [
-  {
-    "autoFix": true,
-    "language": "typescript"
-  }
-],
-"prettier.eslintIntegration": true,
+  "typescript"
+]
 ```
 
 And that’s it! 
