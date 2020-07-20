@@ -40,6 +40,9 @@ You should now have complete Visual Studio Code integration.
 When you violate a linting rule, you’ll be visually alerted, and when you save a file,
 ESLint will attempt to fix any issues using Prettier.
 
+If you want to customize the VSCode Prettier plugin better,
+then you can reach the documentation [here](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+
 ## Source
 More detailed [article](https://levelup.gitconnected.com/setting-up-eslint-with-prettier-typescript-and-visual-studio-code-d113bbec9857)
 extended with JS and React.
