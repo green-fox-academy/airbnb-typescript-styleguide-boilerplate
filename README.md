@@ -2,7 +2,7 @@
 
 This repo helps you to setup your environment for applying AirBnB TypeScript style guide with Visual Studio Code
 
-- go to your project's root folder and run `npm init -y` if no package.json exists in your project's root folder
+- go to your project's root folder and run `npm init -y` if no `package.json` exists in your project's root folder
 - run
 ```shell script
 npm install --save-dev typescript @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-airbnb-base eslint-config-prettier eslint-import-resolver-typescript eslint-plugin-import eslint-plugin-json eslint-plugin-prettier prettier
